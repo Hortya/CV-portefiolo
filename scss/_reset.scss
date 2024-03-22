@@ -1,0 +1,22 @@
+:root{
+    --violet: rgba(200, 22, 129,0.9);
+    --white: #ffffff;
+    --black: #000;
+    --red: #A32A2A;
+}
+
+body{
+    margin: 0;
+    font-family: roboto;
+    font-size: 16px;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+h1{    
+    margin: 0;
+}
+
+a{
+    color: var(--white);
+}
