@@ -1,0 +1,103 @@
+@import url(component/_button.scss);
+@import url(component/_header.scss);
+@font-face {
+  font-family: "robotoB";
+  src: url("assets/font/Roboto/roboto-black-webfont.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "roboto";
+  src: url("assets/font/Roboto/roboto-regular-webfont.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: open-sans;
+  src: url(/assets/font/open-sans/opensans-bold-webfont.woff2) format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+:root {
+  --violet: rgba(200, 22, 129,0.9);
+  --white: #ffffff;
+  --black: #000;
+  --red: #A32A2A;
+}
+
+body {
+  margin: 0;
+  font-family: roboto;
+  font-size: 16px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  color: var(--white);
+}
+
+/* utiles */
+.background-header-footer-img {
+  background-image: linear-gradient(to top, var(--violet), var(--violet)), url(../assets/img/pexels-karolina-grabowska-4622883\(1\).jpg);
+}
+
+.background-red {
+  background-color: var(--red);
+}
+
+.portrait {
+  height: 97px;
+  width: 101px;
+  align-self: center;
+}
+
+.link {
+  font-family: open-sans;
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.img-full-width {
+  position: relative;
+  width: 100%;
+}
+
+/* component */
+/* header  */
+/* main  */
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.main__container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2.81rem;
+  gap: 1rem;
+}
+
+.main__container--48 {
+  gap: 3rem;
+}
+
+.main__container--32 {
+  gap: 2rem;
+}
+
+.main__ttl {
+  font-weight: bold;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */

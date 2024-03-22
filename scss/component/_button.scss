@@ -1,0 +1,14 @@
+.button{
+    display: block;
+    background-color: var(--white);
+    padding: .375rem .75rem;
+    margin: 0 auto;
+    width: fit-content;
+    border: 0px solid transparent;
+    border-radius: 2.5rem;
+    text-decoration: none;
+    color: var(--violet);
+    font-family: open-sans;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
