@@ -1,0 +1,29 @@
+.background-header-footer-img{
+    background-image: linear-gradient(to top, var(--violet), var(--violet)), url(../assets/img/pexels-karolina-grabowska-4622883\(1\).jpg);
+}
+
+.background-red{
+    background-color: var(--red);
+}
+
+.portrait{
+    height: 97px;
+    width: 101px;
+    align-self: center;
+}
+
+.link{
+    font-family: open-sans;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.txt-left{
+    text-align: left;
+}
+
+.img-full-width{
+    position: relative;
+    width: 100%;
+}
