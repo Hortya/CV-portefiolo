@@ -1,9 +1,9 @@
 .background-header-footer-img{
-    background-image: linear-gradient(to top, var(--violet), var(--violet)), url(../assets/img/pexels-karolina-grabowska-4622883\(1\).jpg);
+    background-image: linear-gradient(to top, $color-violet, $color-violet), url(../assets/img/pexels-karolina-grabowska-4622883\(1\).jpg);
 }
 
 .background-red{
-    background-color: var(--red);
+    background-color: $color-red;
 }
 
 .portrait{

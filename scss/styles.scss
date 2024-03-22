@@ -1,25 +1,33 @@
+// var 
+
+@import 'var.scss';
+
 // font
 
-@import url(_font.scss);
+@import 'font.scss';
 
 // reset 
 
-@import url(_reset.scss):
+@import 'reset.scss';
+
+
+// mixin
+
+@import 'mixins.scss';
 
 /* utiles */
 
-@import url(_utils.scss);
+@import 'utils.scss';
 
 /* component */
 
-@import url(component/_button.scss);
-
-
+@import 'component/_button.scss';
 
 /* header  */
 
-@import url(component/_header.scss);
+@import 'component/_header.scss';
 
+@import 'component/_menu-burger.scss';
 
 
 
@@ -31,6 +39,7 @@
     gap: 1rem;
     margin: 1rem 0;
 }
+
 
 .main__container{
     display: flex;
